@@ -15,12 +15,6 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts}
       <Featured product={featuredProduct} />
       <NewProducts products={newProducts} wishedProducts={wishedNewProducts} />
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="Ecommerce"
-      agent-id="8479c270-9fc9-4c29-a853-f4edfb08a92b"
-      language-code="en"
-    ></df-messenger>
         </div>
   );
 }
