@@ -12,13 +12,6 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts}
   return (
     <div>
       <Header />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQNJKSY63W"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
-        gtag(&apos;js&apos;, new Date());
-        gtag(&apos;config&apos;, &apos;G-XQNJKSY63W&apos;);
-      </script>
       <Featured product={featuredProduct} />
       <NewProducts products={newProducts} wishedProducts={wishedNewProducts} />
         </div>
