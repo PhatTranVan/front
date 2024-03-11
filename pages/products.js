@@ -13,14 +13,6 @@ export default function ProductsPage({products,wishedProducts}) {
   return (
     <>
       <Header />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQNJKSY63W"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
-        gtag(&apos;js&apos;, new Date());
-        gtag(&apos;config&apos;, &apos;G-XQNJKSY63W&apos;);
-      </script>
-
       <Center>
         <Title>All products</Title>
         <ProductsGrid products={products} wishedProducts={wishedProducts} />
