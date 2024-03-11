@@ -14,7 +14,6 @@ export default function HomePage({featuredProduct,newProducts,wishedNewProducts}
       <Header />
       <Featured product={featuredProduct} />
       <NewProducts products={newProducts} wishedProducts={wishedNewProducts} />
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
         </div>
   );
 }
